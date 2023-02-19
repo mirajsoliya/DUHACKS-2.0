@@ -37,12 +37,9 @@ const InfluencerHome = () => {
   return (
     <div className="flex">
       <Navbar />
-      <div className="h-screen ml-14">
+      <div className="h-screen ml-10">
         <InfluencerHeader page="InfluencerHome" />
         <div className="">
-          <div className="px-10 font-semibold text-center font-mono text-5xl m-5">
-            <h1>-:All Brands:-</h1>
-          </div>
           <div className="grid grid-cols-3  px-20 ">
 
             {brandCard.length > 0 &&

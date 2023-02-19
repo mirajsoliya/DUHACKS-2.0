@@ -166,11 +166,6 @@ const Card = ({ item }) => {
 
               <div className=" py-5 border-t border-slate-200 ">
                 <div className="flex flex-wrap justify-center">
-                  <div className="w-full px-4">
-                    <p className="font-light leading-relaxed text-slate-600 mb-4">
-                      {/* {discription} */}
-                    </p>
-                  </div>
 
                   <div className="flex  items-center">
                     <AiOutlineFacebook size={20} className="text-[#3b5998] " />
