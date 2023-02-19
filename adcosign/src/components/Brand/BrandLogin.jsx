@@ -84,7 +84,7 @@ const BrandLogin = () => {
                 <div class="flex items-center p-5 rounded-lg mx-auto bg-opacity-25 bg-white">
                   <div class="flex-1">
                     <div class="text-center item-center ">
-                      <p class="pb-5 text-white text-xl dark:text-gray-300">Sign in to access your account  as</p>
+                      <p class="pb-5 text-white text-xl font-bold dark:text-gray-300">Sign in to access your account  as</p>
 
                       <div className="mt-3 md:flex md:items-center md:-mx-2">
 
@@ -157,7 +157,7 @@ const BrandLogin = () => {
                           </div>
                         </div>
 
-                        <div class="mt-10">
+                        <div class="mt-10 text-center">
 
 
                           <button
@@ -171,7 +171,7 @@ const BrandLogin = () => {
 
                       </form>
 
-                      <p class="mt-6 text-lg text-center text-white">Don&#x27;t have an account yet? <a href="BrandSignUp" class="text-blue-500 focus:outline-none focus:underline hover:underline">Sign up</a>.</p>
+                      <p class="mt-6 text-lg text-center text-white">Don&#x27;t have an account yet? <a href="BrandSignUp" class=" font-bold text-blue-300 focus:outline-none focus:underline hover:underline">Sign up</a>.</p>
                     </div>
                   </div>
                 </div>

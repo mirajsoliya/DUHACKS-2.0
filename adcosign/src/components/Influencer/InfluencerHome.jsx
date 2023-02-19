@@ -35,11 +35,11 @@ const InfluencerHome = () => {
 
   return (
     <>
-      <div className="h-screen">
+      <div className="bg-white">
         <InfluencerHeader />
         <div className="">
-          <div className="px-10 font-semibold font-mono text-xl">
-            <h1>Brands:-</h1>
+          <div className="px-10 font-semibold text-center font-mono text-5xl m-5">
+            <h1>-:All Brands:-</h1>
           </div>
           <div className="grid grid-cols-3  px-20 ">
 
