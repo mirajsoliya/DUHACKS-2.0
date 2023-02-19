@@ -110,9 +110,9 @@ const BrandHome = () => {
   }, [])
 
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row h-[screen]">
       <Navbar />
-      <div className="ml-14">
+      <div className="ml-14 w-screen">
         <BrandHeader page="BrandHome" />
 
         <div className="flex ">
