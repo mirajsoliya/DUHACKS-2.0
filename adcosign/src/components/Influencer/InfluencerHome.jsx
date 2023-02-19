@@ -35,14 +35,11 @@ const InfluencerHome = () => {
   }, [])
 
   return (
-    <div className="flex">
-    <Navbar />
-      <div className="h-screen ml-14">
+    <div className="h-[screen] flex">
+      <Navbar />
+      <div className="ml-14">
         <InfluencerHeader page="InfluencerHome" />
         <div className="">
-          <div className="px-10 font-semibold font-mono text-xl">
-            <h1>Brands:-</h1>
-          </div>
           <div className="grid grid-cols-3  px-20 ">
 
             {brandCard.length > 0 &&
