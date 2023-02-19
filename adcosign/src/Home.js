@@ -15,9 +15,9 @@ const Home = () => {
 
 
       {/*                                             Hero section banner                                    */}
-      <div className='Hero-Section w-5/6 m-auto mt-10 '>
+      <div className='Hero-Section w-5/6 m-auto border-2 mt-24'>
 
-        <div className=' flex  mx-auto items-center'>
+        <div className=' flex  items-center  '>
           <div className='text-left'>
             <div className='text-6xl font-medium'>
               Adcosign generates sales to brands via micro-influencers
