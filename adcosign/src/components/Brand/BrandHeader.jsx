@@ -13,7 +13,7 @@ const BrandHeader = (props) => {
 
       const res = await axios.get('/logout')
       console.log(res.data);
-      if (res.data.success == true) {
+      if (res.data.success === true) {
         navigate('/');
       }
     } catch (err) {

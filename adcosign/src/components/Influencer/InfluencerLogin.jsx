@@ -93,7 +93,7 @@ const InfluencerLogin = () => {
                   <div class="flex-1">
                     <div class="text-center item-center ">
 
-                      <p class="pb-5 text-white text-xl dark:text-gray-300">Sign in to access your account  as</p>
+                      <p class="pb-5 text-white font-bold text-xl dark:text-gray-300">Sign in to access your account  as</p>
                       <div className="mt-3 md:flex md:items-center md:-mx-2">
 
                         <NavLink to='/InfluencerLogin'>
@@ -176,7 +176,7 @@ const InfluencerLogin = () => {
                           </div>
                         </div>
 
-                        <div class="mt-10 mx-auto">
+                        <div class="mt-10 mx-auto text-center">
                           {/* <NavLink to='/InfluencerHome'> */}
 
                           <button
@@ -190,7 +190,7 @@ const InfluencerLogin = () => {
 
                       </form>
 
-                      <p class="mt-6 text-lg text-center text-white">Don&#x27;t have an account yet? <a href="/InfluencerSignUp" class="text-blue-300 focus:outline-none focus:underline hover:underline">Sign up</a>.</p>
+                      <p class="mt-6 text-lg text-center text-white">Don&#x27;t have an account yet? <a href="/InfluencerSignUp" class="text-blue-300 font-bold focus:outline-none focus:underline hover:underline">Sign up</a>.</p>
                     </div>
                   </div>
                 </div>
