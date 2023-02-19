@@ -3,6 +3,7 @@ import InfluencerHeader from "./InfluencerHeader";
 import axios from "axios";
 import { NavLink, useNavigate } from 'react-router-dom'
 import Card from "./Card";
+import Navbar from "./Navbar";
 
 const InfluencerHome = () => {
   const navigate = useNavigate();
@@ -34,9 +35,10 @@ const InfluencerHome = () => {
   }, [])
 
   return (
-    <>
-      <div className="bg-white">
-        <InfluencerHeader />
+    <div className="flex">
+      <Navbar />
+      <div className="h-screen ml-14">
+        <InfluencerHeader page="InfluencerHome" />
         <div className="">
           <div className="px-10 font-semibold text-center font-mono text-5xl m-5">
             <h1>-:All Brands:-</h1>
@@ -52,7 +54,7 @@ const InfluencerHome = () => {
         </div>
 
       </div>
-    </>
+    </div>
   );
 };
 
