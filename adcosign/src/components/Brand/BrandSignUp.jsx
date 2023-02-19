@@ -224,8 +224,8 @@ const BrandSignUp = () => {
                   <br>
                   </br>
                 </form>
-                  <hr></hr>
-                  <p class="mt-6 text-sm text-center text-gray-400">Already have an account? <a href="BrandLogin" class="text-blue-500 focus:outline-none focus:underline hover:underline">Login here</a>... </p>
+                <hr></hr>
+                <p class="mt-6 text-sm text-center text-gray-400">Already have an account? <a href="BrandLogin" class="text-blue-500 focus:outline-none focus:underline hover:underline">Login here</a>... </p>
               </div>
             </div>
           </div>
