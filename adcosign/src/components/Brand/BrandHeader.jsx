@@ -5,7 +5,7 @@ import logo from "../../logo192.png";
 import { FiSettings } from "react-icons/fi";
 import axios from "axios";
 
-const BrandHeader = () => {
+const BrandHeader = (props) => {
   const navigate = useNavigate();
 
   const logout = async () => {
@@ -27,10 +27,13 @@ const BrandHeader = () => {
       <div className="header-new w-full bg-white-50 flex">
         <div className="logo">
           <NavLink to="/BrandHome">
-            <img src={logo} alt="no img" className="h-20 pr-10"></img>
+            {/* <img src={logo} alt="no img" className="h-20 pr-10"></img> */}
           </NavLink>
         </div>
-        <nav className="menubar my-auto ">
+        <nav>
+          <p>{props.page}</p>
+        </nav>
+        {/* <nav className="menubar my-auto ">
           <ul className="menu flex items-center text-lg ">
             <li className="menu-item py-3 px-4 hover:text-blue-500 ease-in duration-300 ">
               <NavLink to="/BrandHome">Home</NavLink>
@@ -53,7 +56,6 @@ const BrandHeader = () => {
               <NavLink to="/BrandProfile">Profile</NavLink>
             </li>
             <li className="menu-item py-3 px-4  ease-in duration-300">
-              {/* more items */}
 
 
               <li className="menu-item py-3 px-4 hover:text-blue-500 ease-in duration-300"
@@ -63,7 +65,7 @@ const BrandHeader = () => {
 
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </div>
       <div className="flex">
         <div className="flex items-center mr-6">
