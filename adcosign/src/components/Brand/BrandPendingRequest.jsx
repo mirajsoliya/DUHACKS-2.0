@@ -30,9 +30,9 @@ const BrandPendingRequest = () => {
     getBrandRequest()
   }, [])
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row h-[screen]">
       <Navbar />
-    <div className="h-screen ml-14">
+    <div className="h-screen ml-14 w-screen">
       <BrandHeader page="BrandPendingRequest" />
       <div className="mx-20  my-10 grid grid-cols-2">
         {
