@@ -33,9 +33,9 @@ const InfluencerArrivalRequest = () => {
   }, [])
 
   return (
-    <div className='flex'>
+    <div className='flex h-screen'>
       <Navbar />
-    <div className='h-screen ml-14'>
+    <div className=' ml-14 w-screen'>
       <InfluencerHeader page="InfluencerArrivalRequest" />
       <div className='flex grid  md:grid-cols-3'>
         {

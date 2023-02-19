@@ -37,7 +37,7 @@ const InfluencerHome = () => {
   return (
     <div className="h-[screen] flex">
       <Navbar />
-      <div className="ml-14">
+      <div className="ml-14 w-screen">
         <InfluencerHeader page="InfluencerHome" />
         <div className="">
           <div className="grid grid-cols-3  px-20 ">

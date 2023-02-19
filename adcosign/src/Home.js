@@ -15,7 +15,7 @@ const Home = () => {
 
 
       {/*                                             Hero section banner                                    */}
-      <div className='Hero-Section w-5/6 m-auto border-2 mt-24'>
+      <div className='Hero-Section w-5/6 m-auto  mt-24'>
 
         <div className=' flex  items-center  '>
           <div className='text-left'>

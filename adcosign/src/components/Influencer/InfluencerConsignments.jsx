@@ -38,7 +38,7 @@ const InfluencerConsignments = () => {
   return (
     <div className="flex">
       <Navbar />
-      <div className="h-screen ml-14">
+      <div className="h-screen ml-14 w-screen">
         <InfluencerHeader page="InfluencerConsignments" />
         {profilecard.length == 0 ?
           <h1 className="text-3xl font-bold ml-40">No Any Agreements</h1> :

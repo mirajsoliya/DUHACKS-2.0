@@ -3,10 +3,10 @@ import { HiMenuAlt1 } from 'react-icons/hi';
 import { FaUserCircle ,FaHome} from 'react-icons/fa';
 import { CgImport} from 'react-icons/cg';
 import { MdPendingActions} from 'react-icons/md';
+import { BiLogOut,BiHistory } from 'react-icons/bi';
+import { FaHandshake } from 'react-icons/fa';
 import { BsFilePost } from 'react-icons/bs';
-import { BiLogOut } from 'react-icons/bi';
 import { BsInfoCircle } from 'react-icons/bs';
-import { IoIosRocket } from 'react-icons/io';
 import { GiWorld } from 'react-icons/gi';
 import { GiWallet } from 'react-icons/gi';
 import { RiArticleLine } from 'react-icons/ri';
@@ -14,11 +14,11 @@ import { BsQuestionCircleFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    const menus = [{ name: "Profile", link: "/", icon: FaUserCircle },
+    const menus = [{ name: "Profile", link: "/InfluencerProfile", icon: FaUserCircle },
     { name: "Home", link: "/InfluencerHome", icon: FaHome },
     { name: "Pending Request", link: "/InfluencerPendingRequest", icon: MdPendingActions },
     { name: "Arrival Request", link: "/InfluencerArrivalRequest", icon: CgImport },
-    { name: "Agreement", link: "/InfluencerConsignments", icon: IoIosRocket },
+    { name: "Agreement", link: "/InfluencerConsignments", icon: FaHandshake },
     // { name: "Subscription", link: "/", icon: GiWallet },
     // { name: "Terms & Conditions", link: "/", icon: BsQuestionCircleFill },
     // { name: "About", link: "/", icon: BsInfoCircle },
