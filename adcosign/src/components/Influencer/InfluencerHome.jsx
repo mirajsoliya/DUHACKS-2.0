@@ -38,8 +38,8 @@ const InfluencerHome = () => {
       <div className="h-screen">
         <InfluencerHeader />
         <div className="">
-          <div className="px-10 font-semibold font-mono text-xl">
-            <h1>Brands:-</h1>
+          <div className="px-10 font-semibold font-mono text-5xl text-center">
+            <h1>-:Brands:-</h1>
           </div>
           <div className="grid grid-cols-3  px-20 ">
 

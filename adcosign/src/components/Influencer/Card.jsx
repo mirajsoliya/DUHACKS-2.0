@@ -152,7 +152,7 @@ const Card = ({ item }) => {
               <div className=" mb-4">
                 <div className="flex space-x-2">
                   <TiLocation size={20} />
-                  <div>{item.country +", "+item.city}</div>
+                  <div>{item.country + ", " + item.city}</div>
                 </div>
                 <div className="flex space-x-2">
                   <FiPhoneCall size={20} />
